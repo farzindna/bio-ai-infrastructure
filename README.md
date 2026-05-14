@@ -5,24 +5,27 @@ Welcome to the architectural hub of my specialized AI deployments. I am a resear
 ##  Active & Launched Projects
 
 ### 1. InsurTech: Genetic Testing Decision Support (Live)
-*   **Focus:** An enterprise-grade RAG (Retrieval-Augmented Generation) system for insurance companies to validate the necessity of high-cost genetic tests based on specialized forms and uploaded medical data.
+*   **Focus:** An enterprise-grade RAG system for insurance providers to validate high-cost genetic testing via automated clinical report analysis.
 *   **Status:** Successfully Launched & Operational.
 
-### 2. Health-Tech Charity & Commission Automation (Live)
-*   **Focus:** A comprehensive automation ecosystem connecting patients, physicians, and laboratories. It manages donor credit allocation and tracks genetic service delivery through a custom-built commission system.
-*   **Status:** Successfully Launched & Operational.
+### 2. Personalized Genetic Patient Navigator (80% Complete)
+*   **Focus:** A high-fidelity RAG-based expert system that acts as a virtual genetic consultant. It guides patients through their diagnostic journey, helping them interpret complex results and understand their disease trajectory.
+*   **Status:** In Advanced Development / Beta Phase.
 
-### 3. Forensic Medicine AI Infrastructure (MVP Phase)
-*   **Focus:** Implementation of a secure RAG framework for Forensic Medicine Commissions to enhance the speed and accuracy of case file analysis and report generation.
-*   **Status:** MVP demonstrated; currently in the final contracting phase.
+### 3. Health-Tech Charity & Commission Automation (Live)
+*   **Focus:** A comprehensive ecosystem connecting patients, physicians, and labs, managing donor credit allocation through AI-driven tracking.
+*   **Status:** Successfully Launched & Operational.
 
 ### 4. Knowledge Synthesis & Research Proposal Engine
-*   **Focus:** A specialized dashboard designed for research institutes (e.g., Royan Institute) that synthesizes scientific literature to generate automated, data-driven research proposals.
+*   **Focus:** A specialized dashboard for research institutes (e.g., Royan Institute) that analyzes scientific literature to generate automated, data-driven research proposals and insights.
 *   **Status:** In Active Development.
 
-### 5. Advanced Systems Biology & Molecular Docking
-*   **Focus:** High-level computational research utilizing VS Code environments for systems biology modeling and molecular docking simulations to study drug-protein interactions.
+### 5. Forensic Medicine AI Infrastructure (MVP Phase)
+*   **Focus:** Secure RAG framework for Forensic Medicine Commissions to enhance case file analysis and precision in legal-medical reporting.
+*   **Status:** MVP Demonstrated; Finalizing Contracts.
 
+### 6. Advanced Systems Biology & Molecular Docking
+*   **Focus:** Computational research protein-ligand interactions and systems-level biological modeling.
 ---
 
 ## 🔒 Security, Compliance & Privacy

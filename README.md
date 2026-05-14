@@ -33,3 +33,34 @@ My GitHub activity reflects a continuous commitment to developing these infrastr
 
 ---
 *Professional verification via ORCID is available in my profile.*
+
+
+## 🏗 High-Level System Architecture (RAG Framework)
+
+Below is a conceptual overview of the AI infrastructure utilized across my Insurance and Forensic projects, focusing on secure data processing and expert-level retrieval.
+
+```mermaid
+graph TD
+    subgraph "Data Integration Layer"
+        A[Genomic Data / Case Files] --> B{Anonymization & Privacy Filter}
+        B --> C[Document Chunking & Processing]
+    end
+
+    subgraph "Knowledge Base (Vector Space)"
+        C --> D[Embedding Model]
+        D --> E[(Vector Database - FAISS/Pinecone)]
+    end
+
+    subgraph "AI Reasoning Core (The Pipeline)"
+        F[Expert Query] --> G[Contextual Retrieval]
+        E --> G
+        G --> H[Claude/LLM Reasoning Engine]
+    end
+
+    subgraph "Output Generation"
+        H --> I[Decision Support Report]
+        H --> J[Scientific Research Proposal]
+    end
+
+    style H fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#fff,stroke:#f66,stroke-dasharray: 5 5

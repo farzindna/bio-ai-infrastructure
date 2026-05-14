@@ -2,7 +2,7 @@
 
 Welcome to the architectural hub of my specialized AI deployments. I am a researcher and systems architect bridging the gap between high-complexity biological data and operational AI infrastructure.
 
-## 🚀 Active & Launched Projects
+##  Active & Launched Projects
 
 ### 1. InsurTech: Genetic Testing Decision Support (Live)
 *   **Focus:** An enterprise-grade RAG (Retrieval-Augmented Generation) system for insurance companies to validate the necessity of high-cost genetic tests based on specialized forms and uploaded medical data.

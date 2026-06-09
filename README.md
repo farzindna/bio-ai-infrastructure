@@ -1,46 +1,41 @@
-# Enterprise AI Systems Architect: Genomics, Forensics & InsurTech
+# AI Systems for Genomics, Forensics & HealthTech
 
-Welcome to the architectural hub of my specialized AI deployments. I am a researcher and systems architect bridging the gap between high-complexity biological data and operational AI infrastructure.
+Researcher and systems architect working at the intersection of biological data and applied AI infrastructure. My focus is building production-grade RAG and decision-support systems for specialized domains where data sensitivity and precision are critical.
 
-##  Active & Launched Projects
+## Projects
 
-### 1. InsurTech: Genetic Testing Decision Support (Live)
-*   **Focus:** An enterprise-grade RAG system for insurance providers to validate high-cost genetic testing via automated clinical report analysis.
-*   **Status:** Successfully Launched & Operational.
+### 1. Genetic Testing Decision Support — InsurTech
+An AI system for insurance providers to validate high-cost genetic testing orders via automated clinical report analysis. Built on a secure RAG pipeline with domain-specific retrieval over medical literature and insurance guidelines.
+**Status:** Live
 
-### 2. Personalized Genetic Patient Navigator (80% Complete)
-*   **Focus:** A high-fidelity RAG-based expert system that acts as a virtual genetic consultant. It guides patients through their diagnostic journey, helping them interpret complex results and understand their disease trajectory.
-*   **Status:** In Advanced Development / Beta Phase.
+### 2. Personalized Genetic Patient Navigator
+A RAG-based expert system that acts as a virtual genetic consultant — helping patients interpret complex diagnostic results and understand their disease trajectory in plain language.
+**Status:** Beta
 
-### 3. Health-Tech Charity & Commission Automation (Live)
-*   **Focus:** A comprehensive ecosystem connecting patients, physicians, and labs, managing donor credit allocation through AI-driven tracking.
-*   **Status:** Successfully Launched & Operational.
+### 3. Health-Tech Charity & Commission Automation
+An ecosystem connecting patients, physicians, and diagnostic labs, with AI-driven tracking for donor credit allocation and commission management.
+**Status:** Live
 
-### 4. Knowledge Synthesis & Research Proposal Engine
-*   **Focus:** A specialized dashboard for research institutes (e.g., Royan Institute) that analyzes scientific literature to generate automated, data-driven research proposals and insights.
-*   **Status:** In Active Development.
+### 4. Research Proposal Generation Engine
+A specialized tool for research institutes that synthesizes scientific literature to generate data-driven research proposals and gap analyses.
+**Status:** In development
 
-### 5. Forensic Medicine AI Infrastructure (MVP Phase)
-*   **Focus:** Secure RAG framework for Forensic Medicine Commissions to enhance case file analysis and precision in legal-medical reporting.
-*   **Status:** MVP Demonstrated; Finalizing Contracts.
+### 5. Forensic Medicine AI Infrastructure
+A secure RAG framework for Forensic Medicine Commissions to support case file analysis and legal-medical reporting.
+**Status:** MVP delivered, contracts in progress
 
-### 6. Advanced Systems Biology & Molecular Docking
-*   **Focus:** Computational research protein-ligand interactions and systems-level biological modeling.
----
-
-## 🔒 Security, Compliance & Privacy
-Due to the **enterprise-level sensitivity** of the data handled—including legal forensic files, insurance claims, and private genomic records—the source code for these projects is maintained in **private repositories** to comply with strict data protection regulations (HIPAA/GDPR equivalents).
-
-## 🛠 For Reviewers (Anthropic/Claude)
-My GitHub activity reflects a continuous commitment to developing these infrastructures. I am available for a **private technical deep-dive or live demonstration** of any launched platform to verify the architectural complexity and social impact of my work.
+### 6. Molecular Docking & Systems Biology
+Computational pipelines for protein-ligand interaction modeling, including primer design and in silico validation for molecular biology research.
 
 ---
-*Professional verification via ORCID is available in my profile.*
 
+## Why Private Repositories?
 
-## 🏗 High-Level System Architecture (RAG Framework)
+These projects handle sensitive data — genomic records, insurance claims, forensic case files. Source code is kept private to comply with applicable data protection requirements and client confidentiality agreements.
 
-Below is a conceptual overview of the AI infrastructure utilized across my Insurance and Forensic projects, focusing on secure data processing and expert-level retrieval.
+---
+
+## High-Level Architecture (RAG Framework)
 
 ```mermaid
 graph TD
@@ -49,21 +44,21 @@ graph TD
         B --> C[Document Chunking & Processing]
     end
 
-    subgraph "Knowledge Base (Vector Space)"
+    subgraph "Knowledge Base"
         C --> D[Embedding Model]
         D --> E[(Vector Database - FAISS/Pinecone)]
     end
 
-    subgraph "AI Reasoning Core (The Pipeline)"
+    subgraph "AI Reasoning Core"
         F[Expert Query] --> G[Contextual Retrieval]
         E --> G
-        G --> H[Claude/LLM Reasoning Engine]
+        G --> H[LLM Reasoning Engine]
     end
 
-    subgraph "Output Generation"
+    subgraph "Output"
         H --> I[Decision Support Report]
-        H --> J[Scientific Research Proposal]
+        H --> J[Research Proposal]
     end
 
-    style H fill:#f9f,stroke:#333,stroke-width:4px
     style B fill:#fff,stroke:#f66,stroke-dasharray: 5 5
+```
